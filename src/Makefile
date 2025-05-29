@@ -27,11 +27,7 @@ endef
 define build-typora
 	$(call build,$(1),$(typora),light)
 	$(call build,$(1),$(typora),dark)
-	if [ "$(1)" = "$(windows)" ]; then \
-		cp $(base_dir)/scripts/install.ps1 $(target_dir)/$(1)-$(typora); \
-	else \
-		cp $(base_dir)/scripts/install.sh $(target_dir)/$(1)-$(typora); \
-	fi;
+	cp $(base_dir)/scripts/install.sh $(target_dir)/$(1)-$(typora)
 	cp $(base_dir)/README.md $(target_dir)/$(1)-$(typora)
 	cp $(base_dir)/../LICENSE $(target_dir)/$(1)-$(typora)
 	cp $(base_dir)/../credits.md $(target_dir)/$(1)-$(typora)
@@ -44,21 +40,11 @@ define build-pandoc
 endef
 
 .PHONY: all
-all: windows macos linux
+all: linux
 
 .PHONY: all-and-compress
 all-and-compress: all
-	cd $(target_dir)/$(windows)-$(typora); zip -r $(target_dir)/latex-theme-$(windows).zip ./*
-	cd $(target_dir)/$(macos)-$(typora); zip -r $(target_dir)/latex-theme-$(macos).zip ./*
 	cd $(target_dir)/$(linux)-$(typora); zip -r $(target_dir)/latex-theme-$(linux).zip ./*
-
-.PHONY: windows
-windows:
-	$(call build-typora,$(windows))
-
-.PHONY: macos
-macos:
-	$(call build-typora,$(macos))
 
 .PHONY: linux
 linux:

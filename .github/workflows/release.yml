@@ -1,36 +1,36 @@
 name: Release
 
 on:
-  push:
-    tags:
-      - v*
+    push:
+        tags:
+            - v*
 
 env:
-  DART_SASS_VERSION: 1.81.0
+    DART_SASS_VERSION: 1.81.0
 
 jobs:
-  release:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Install Dart Sass
-        uses: robinraju/release-downloader@v1
-        with:
-          repository: 'sass/dart-sass'
-          tag: ${{ env.DART_SASS_VERSION }}
-          fileName: "dart-sass-${{ env.DART_SASS_VERSION }}-linux-x64.tar.gz"
-          extract: true
-      - name: Add Binary to PATH
-        run: |
-          ln -s "$GITHUB_WORKSPACE/dart-sass/sass" "$GITHUB_WORKSPACE/dart-sass/dart-sass"
-          echo "$GITHUB_WORKSPACE/dart-sass" >> "$GITHUB_PATH"
-      - name: Compile
-        run: |
-          cd ./src
-          make all-and-compress -j3
-      - name: Release
-        uses: softprops/action-gh-release@v2
-        if: startsWith(github.ref, 'refs/tags/')
-        with:
-          files: ./src/latex-theme/*.zip
+    release:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+            - name: Install Dart Sass
+              uses: robinraju/release-downloader@v1
+              with:
+                  repository: "sass/dart-sass"
+                  tag: ${{ env.DART_SASS_VERSION }}
+                  fileName: "dart-sass-${{ env.DART_SASS_VERSION }}-linux-x64.tar.gz"
+                  extract: true
+            - name: Add Binary to PATH
+              run: |
+                  ln -s "$GITHUB_WORKSPACE/dart-sass/sass" "$GITHUB_WORKSPACE/dart-sass/dart-sass"
+                  echo "$GITHUB_WORKSPACE/dart-sass" >> "$GITHUB_PATH"
+            - name: Compile
+              run: |
+                  cd ./src
+                  make all-and-compress
+            - name: Release
+              uses: softprops/action-gh-release@v2
+              if: startsWith(github.ref, 'refs/tags/')
+              with:
+                  files: ./src/latex-theme/*.zip
