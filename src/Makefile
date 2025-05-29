@@ -2,8 +2,6 @@ base_dir = $(shell pwd)
 
 target_dir = $(base_dir)/latex-theme
 working_dir = $(base_dir)/build
-windows = windows
-macos = macos
 linux = linux
 typora = typora
 pandoc = pandoc
@@ -37,7 +35,7 @@ define build-typora
 	cp $(base_dir)/README.md $(target_dir)/$(1)-$(typora)
 	cp $(base_dir)/../LICENSE $(target_dir)/$(1)-$(typora)
 	cp $(base_dir)/../credits.md $(target_dir)/$(1)-$(typora)
-	cp -r $(base_dir)/../resources $(target_dir)/$(1)-$(typora)/resources
+	cp -r $(base_dir)/../res $(target_dir)/$(1)-$(typora)/res
 endef
 
 define build-pandoc

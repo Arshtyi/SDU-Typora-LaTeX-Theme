@@ -1,17 +1,25 @@
+# [SDU-Typora-LaTeX-Theme](https://github.com/Arshtyi/SDU-Typora-LaTeX-Theme)
+
+-   本项目基于[typora-latex-theme](https://github.com/Keldos-Li/typora-latex-theme)
+-   我将其作了一些修改以适配 SDU，但是因为我本人的原因，只开发了 Linux 版本（1.10.7)
+
+**以下是原项目内容**
+
 ![cover](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/cover.png)
+
 # Typora 伪装 LaTeX 中文样式主题
 
-[下载与安装](#下载与安装) | [帮助文档](https://github.com/Keldos-Li/typora-latex-theme/wiki) | [个性化设置](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E4%B8%AA%E6%80%A7%E5%8C%96%E8%AE%BE%E7%BD%AE) | [贡献指南](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97) | [技术细节](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E6%8A%80%E6%9C%AF%E7%BB%86%E8%8A%82) | [常见问题](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)  
+[下载与安装](#下载与安装) | [帮助文档](https://github.com/Keldos-Li/typora-latex-theme/wiki) | [个性化设置](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E4%B8%AA%E6%80%A7%E5%8C%96%E8%AE%BE%E7%BD%AE) | [贡献指南](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97) | [技术细节](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E6%8A%80%E6%9C%AF%E7%BB%86%E8%8A%82) | [常见问题](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
 
-本项目的初衷是为了简化中国大陆本科生**小型通识课论文**（或**小型实验报告**）撰写的负担。这里基本采用了浙江大学要求的格式（字体较小，页边距较小），但大部分同学都可以自行在 CSS 中修改适合自己学校的格式。  
+本项目的初衷是为了简化中国大陆本科生**小型通识课论文**（或**小型实验报告**）撰写的负担。这里基本采用了浙江大学要求的格式（字体较小，页边距较小），但大部分同学都可以自行在 CSS 中修改适合自己学校的格式。
 
 Markdown 的轻量化特性，使您可以专注于论文内容而不用担心格式。书写时仅通过简单的标记，并通过替换样例模板中的个人信息，您就可以输出类 LaTeX 排版的精美论文与报告。本项目支持 Windows, macOS 和 Linux 三大平台的 Typora。
 
-<a href="https://github.com/Keldos-Li/typora-latex-theme/releases">![GitHub downloads](https://img.shields.io/github/downloads/Keldos-Li/typora-latex-theme/total?logo=data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTAyNCAxMDI0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiPjxwYXRoIGQ9Ik0zNjIuNjYgNDIxLjMxVjg4YzAtMTMuMjUgMTAuNzUtMjQgMjQtMjRoMjUwLjY5YzEzLjI1IDAgMjQgMTAuNzUgMjQgMjR2MzMzLjMxYzAgOC44NCA3LjE2IDE2IDE2IDE2aDE2OS4zN2MxNC4yNSAwIDIxLjM5IDE3LjIzIDExLjMxIDI3LjMxbC0zMjkuMDkgMzI5LjFjLTkuMzcgOS4zNy0yNC41NyA5LjM3LTMzLjk0IDBsLTMyOS4wNC0zMjkuMWMtMTAuMDgtMTAuMDgtMi45NC0yNy4zMSAxMS4zMS0yNy4zMWgxNjkuMzljOC44NCAwIDE2LTcuMTYgMTYtMTZ6IG0tMjA4LjAxIDQ2NGg3MTQuNjljOC44NCAwIDE2IDcuMTYgMTYgMTZWOTQ0YzAgOC44NC03LjE2IDE2LTE2IDE2SDE1NC42NWMtOC44NCAwLTE2LTcuMTYtMTYtMTZ2LTQyLjY5YzAtOC44NCA3LjE2LTE2IDE2LTE2eiIgZmlsbD0iI2ZmZmZmZiI+PC9wYXRoPjwvc3ZnPg==)</a>
-<a href="https://github.com/Keldos-Li/typora-latex-theme/releases/latest">![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Keldos-Li/typora-latex-theme?include_prereleases&color=green&logo=hack-the-box)</a>
-<a href="https://github.com/Keldos-Li/typora-latex-theme/stargazers">![GitHub Repo stars](https://img.shields.io/github/stars/Keldos-Li/typora-latex-theme?style=flat&logo=github&color=yellow)</a>
-<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=IB2QSpQSSOQIDZfN74ujqx1aVtQtdtXF&jump_from=webapi">
-![QQ群](https://img.shields.io/badge/QQ群-643187070-89AED1?logo=Tencent-QQ)</a>
+`<a href="https://github.com/Keldos-Li/typora-latex-theme/releases">`![GitHub downloads](https://img.shields.io/github/downloads/Keldos-Li/typora-latex-theme/total?logo=data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTAyNCAxMDI0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiPjxwYXRoIGQ9Ik0zNjIuNjYgNDIxLjMxVjg4YzAtMTMuMjUgMTAuNzUtMjQgMjQtMjRoMjUwLjY5YzEzLjI1IDAgMjQgMTAuNzUgMjQgMjR2MzMzLjMxYzAgOC44NCA3LjE2IDE2IDE2IDE2aDE2OS4zN2MxNC4yNSAwIDIxLjM5IDE3LjIzIDExLjMxIDI3LjMxbC0zMjkuMDkgMzI5LjFjLTkuMzcgOS4zNy0yNC41NyA5LjM3LTMzLjk0IDBsLTMyOS4wNC0zMjkuMWMtMTAuMDgtMTAuMDgtMi45NC0yNy4zMSAxMS4zMS0yNy4zMWgxNjkuMzljOC44NCAwIDE2LTcuMTYgMTYtMTZ6IG0tMjA4LjAxIDQ2NGg3MTQuNjljOC44NCAwIDE2IDcuMTYgMTYgMTZWOTQ0YzAgOC44NC03LjE2IDE2LTE2IDE2SDE1NC42NWMtOC44NCAwLTE2LTcuMTYtMTYtMTZ2LTQyLjY5YzAtOC44NCA3LjE2LTE2IDE2LTE2eiIgZmlsbD0iI2ZmZmZmZiI+PC9wYXRoPjwvc3ZnPg==) `</a>`
+`<a href="https://github.com/Keldos-Li/typora-latex-theme/releases/latest">`![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Keldos-Li/typora-latex-theme?include_prereleases&color=green&logo=hack-the-box)`</a>`
+`<a href="https://github.com/Keldos-Li/typora-latex-theme/stargazers">`![GitHub Repo stars](https://img.shields.io/github/stars/Keldos-Li/typora-latex-theme?style=flat&logo=github&color=yellow) `</a>`
+`<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=IB2QSpQSSOQIDZfN74ujqx1aVtQtdtXF&jump_from=webapi">`
+![QQ群](https://img.shields.io/badge/QQ群-643187070-89AED1?logo=Tencent-QQ) `</a>`
 
 ## 预览
 
@@ -23,23 +31,24 @@ Markdown 的轻量化特性，使您可以专注于论文内容而不用担心�
 
 ### 封面，摘要和关键词
 
-| ![sample-essay_1](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/sample-essay_1.png)|![sample-essay_2](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/sample-essay_2.png)|
-| :----: | :----: |
+| ![sample-essay_1](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/sample-essay_1.png) | ![sample-essay_2](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/sample-essay_2.png) |
+| :----------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------: |
 
 ### 预览与编写
 
-| ![preview-l](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/preview-l.png)|![preview-d](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/preview-d.png)|
-| :----: | :----: |
-| ![edit-l](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/edit-l.png)|![edit-d](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/edit-d.png)|
+| ![preview-l](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/preview-l.png) | ![preview-d](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/preview-d.png) |
+| :------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
+|    ![edit-l](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/edit-l.png)    |    ![edit-d](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/edit-d.png)    |
 
-#### 层级标题 
+#### 层级标题
 
-|![heading-l](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/heading-l.png)|![heading-d](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/heading-d.png)|
-| :----: | :----: |
+| ![heading-l](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/heading-l.png) | ![heading-d](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/heading-d.png) |
+| :------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
 
-#### 表格 
-|![table-l](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/table-l.png)|![table-d](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/table-d.png)|
-| :----: | :----: |
+#### 表格
+
+| ![table-l](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/table-l.png) | ![table-d](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/table-d.png) |
+| :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: |
 
 ```markdown
 表格：
@@ -53,33 +62,38 @@ Markdown 的轻量化特性，使您可以专注于论文内容而不用担心�
 ```
 
 #### 项目列表
-|![item-l](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/item-l.png)|![item-d](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/item-d.png)|
-| :----: | :----: |
 
-#### 代码块 
-|![code-l](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/code-l.png)|![code-d](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/code-d.png)|
-| :----: | :----: |
+| ![item-l](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/item-l.png) | ![item-d](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/item-d.png) |
+| :------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: |
+
+#### 代码块
+
+| ![code-l](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/code-l.png) | ![code-d](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/code-d.png) |
+| :------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: |
 
 #### Mermaid
-|![mermaid-l](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/mermaid-l.png)|![mermaid-d](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/mermaid-d.png)|
-| :----: | :----: |
 
-```markdown
+| ![mermaid-l](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/mermaid-l.png) | ![mermaid-d](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/mermaid-d.png) |
+| :------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
+
+````markdown
 mermaid 图形：
 
-​```mermaid
+```mermaid
 graph LR
 A(开始) -->
 input[/输入a,b/] --> if{a%b=0 ?}
 if --->|yes| f1[GCD = b] --> B(结束)
 if --->|no| f2["a, b = b, a % b "]-->if
-​```
 ```
+````
+
+````
 
 #### 公式
 
-|![equation-l](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/equation-l.png)|![equation-d](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/equation-d.png)|
-| :----: | :----: |
+| ![equation-l](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/equation-l.png) | ![equation-d](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/equation-d.png) |
+| :------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
 
 ```latex
 公式：
@@ -87,27 +101,24 @@ if --->|no| f2["a, b = b, a % b "]-->if
 $$
 \iint\limits_{x^2 + y^2 \leq R^2} f(x,y)\,\mathrm{d}x\,\mathrm{d}y = \int_{\theta=0}^{2\pi} \mathrm{d}\theta\int_{r=0}^R f(r\cos\theta,r\sin\theta) r\,\mathrm{d}r\, \tag{1}
 $$
-```
+````
 
 ## 下载与安装
 
-**请完整阅读以下过程，以确保一切符合预期。**  
+**请完整阅读以下过程，以确保一切符合预期。**
 
 1. [Typora](https://typora.io/) 是一个支持实时预览的 markdown 编辑器。在安装本主题前，请确认您已[下载 Typora](https://typora.io/#download) 并完成了安装。如果您对 markdown 的语法还不了解，您可以从这里[获得帮助](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98#%E4%BB%80%E4%B9%88%E6%98%AF-markdown)。
-
-2. 前往本项目的 [release](https://github.com/Keldos-Li/typora-latex-theme/releases) 页面，下载适合您操作系统的最新版本压缩包。比如，如果您在使用 Windows 操作系统，您就应该下载 `latex-theme-windows.zip`。 
-
+2. 前往本项目的 [release](https://github.com/Keldos-Li/typora-latex-theme/releases) 页面，下载适合您操作系统的最新版本压缩包。比如，如果您在使用 Windows 操作系统，您就应该下载 `latex-theme-windows.zip`。
 3. 解压缩这个文件，进入解压缩后的文件夹。按照[在线安装教程](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B)或该文件夹下 `README.md` 中的安装教程**完成剩余的安装步骤**。请务必确认您完成了下面的步骤：
-     - [进行手动或自动主题安装](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B#%E5%BC%80%E5%A7%8B%E5%AE%89%E8%A3%85)
-     - [下载并安装所需的字体](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B#%E5%AE%89%E8%A3%85%E5%AD%97%E4%BD%93)
 
-
+    - [进行手动或自动主题安装](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B#%E5%BC%80%E5%A7%8B%E5%AE%89%E8%A3%85)
+    - [下载并安装所需的字体](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B#%E5%AE%89%E8%A3%85%E5%AD%97%E4%BD%93)
 
 ## 鸣谢
 
-本项目是在下面两个开源项目的基础上完成的：  
+本项目是在下面两个开源项目的基础上完成的：
 
-- [yfzhao20/Typora-markdown](https://github.com/yfzhao20/Typora-markdown)  
-- [du33169/typora-theme-essay_cn](https://github.com/du33169/typora-theme-essay_cn)  
+-   [yfzhao20/Typora-markdown](https://github.com/yfzhao20/Typora-markdown)
+-   [du33169/typora-theme-essay_cn](https://github.com/du33169/typora-theme-essay_cn)
 
-感谢 [@大啊好我r中之](https://space.bilibili.com/239828907) 制作介绍视频  
+感谢 [@大啊好我 r 中之](https://space.bilibili.com/239828907) 制作介绍视频
